@@ -75,8 +75,8 @@
 
 	$.fn.wScratchPad.defaultSettings =
 	{
-		width		: 1280,					// set width - best to match image width
-		height		: 845,					// set height - best to match image height
+		width		: 1280,					    // set width - best to match image width
+		height		: 845,					    // set height - best to match image height
 		image		: 'images/slide1.jpg',		// set image path
 		image2		: 'images/winner.png',		// set overlay image path - if set color is not used
 		color		: '#336699',				// set scratch color - if image2 is not set uses color
@@ -85,8 +85,8 @@
 		scratchDown	: null,						// scratchDown callback
 		scratchUp	: null,						// scratchUp callback
 		scratchMove	: null,						// scratcMove callback
-		cursor		: null,
-        margin      : '50px auto'               // Set path to custom cursor
+		cursor		: null,                     // Set path to custom cursor
+        margin      : '50px auto'               
 	};
 	
 	function ScratchPad(settings, elem)
