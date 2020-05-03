@@ -81,12 +81,12 @@
 		image2		: 'images/winner.png',		// set overlay image path - if set color is not used
 		color		: '#336699',				// set scratch color - if image2 is not set uses color
 		overlay		: 'none',					// set the type of overlay effect 'none', 'lighter' - only used with color
-		size		: 25,						// set size of scratcher
+		size		: 35,						// set size of scratcher
 		scratchDown	: null,						// scratchDown callback
 		scratchUp	: null,						// scratchUp callback
 		scratchMove	: null,						// scratcMove callback
 		cursor		: null,
-        margin      : '50px auto'                  // Set path to custom cursor
+        margin      : '50px auto'               // Set path to custom cursor
 	};
 	
 	function ScratchPad(settings, elem)
